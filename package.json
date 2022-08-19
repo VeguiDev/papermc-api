@@ -3,8 +3,9 @@
     "version": "1.0.0",
     "description": "Its a PaperMC Downloads API client for node.js",
     "main": "./src/main.ts",
-    "author": "gravity-well <veguigameplays@gmail.com>",
+    "author": "veguidev",
     "license": "ISC",
+    "keywords": ["papermc", "api-client", "minecraft", "download"],
     "dependencies": {
         "axios": "^0.27.2"
     },
