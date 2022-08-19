@@ -1,16 +1,16 @@
 {
-  "name": "papermc-api",
-  "version": "1.0.0",
-  "description": "Its a PaperMC API port for Node.JS",
-  "main": "src/main.ts",
-  "author": "VeguiDev",
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.27.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.16",
-    "ts-node": "^10.8.0",
-    "typescript": "^4.7.2"
-  }
+    "name": "papermc-api",
+    "version": "1.0.0",
+    "description": "Its a PaperMC Downloads API client for node.js",
+    "main": "./src/main.ts",
+    "author": "gravity-well <veguigameplays@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16",
+        "ts-node": "^10.8.0",
+        "typescript": "^4.7.2"
+    }
 }
