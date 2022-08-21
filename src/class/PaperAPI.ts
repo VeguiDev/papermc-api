@@ -22,6 +22,7 @@ export class PaperAPI {
         }
     }
 
+
     static async project(proyect: ("paper" | "travertine" | "waterfall" | "velocity")) {
         let res = await APIClient.get('/projects/' + proyect);
         if (!res) {
