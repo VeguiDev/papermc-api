@@ -3,7 +3,7 @@
 
 # PaperMC Downloads Api
 
-### This library allows you to obtain version information of PaperMC projects and also generate download links.
+*This library allows you to obtain version information of PaperMC projects and also generate download links.*
 
 **Table of Contents:**
 
@@ -14,7 +14,7 @@
 
 Installing the client librery
 ```
-npm install paperapi-mc
+npm install papermc-api
 ```
 
 ## Documentation

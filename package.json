@@ -1,11 +1,14 @@
 {
     "name": "papermc-api",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Its a PaperMC Downloads API client for node.js",
     "main": "./dist/main.js",
     "author": "veguidev",
     "license": "ISC",
     "keywords": ["papermc", "api-client", "minecraft", "download"],
+    "scripts": {
+        "build": "tsc"
+    },
     "dependencies": {
         "axios": "^0.27.2"
     },
