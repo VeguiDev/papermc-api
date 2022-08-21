@@ -73,3 +73,4 @@ let build = await version.getBuild("latest"); // Returns Build info
 
 let downloadUrl = build.getDownloadUrl(); // Returns download URL for in this case waterfall 1.19.2
 ```
+
