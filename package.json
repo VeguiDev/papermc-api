@@ -16,7 +16,8 @@
         "download"
     ],
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "test": "node ./dist/main.js"
     },
     "dependencies": {
         "axios": "^0.27.2"

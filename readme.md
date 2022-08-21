@@ -2,6 +2,9 @@
 ![PaperMC Logo](https://papermc.io/images/logo-marker.svg)
 
 # PaperMC Downloads Api
+![NPM VERSION](https://img.shields.io/npm/v/papermc-api?style=flat)
+![DOWNLOADS](https://img.shields.io/npm/dm/papermc-api.svg?style=flat)
+![LICENSE](https://img.shields.io/npm/l/papermc-api)
 
 *This library allows you to obtain version information of PaperMC projects and also generate download links.*
 
