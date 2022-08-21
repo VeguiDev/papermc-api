@@ -4,7 +4,11 @@
     "description": "Its a PaperMC Downloads API client for node.js",
     "main": "./dist/main.js",
     "author": "veguidev",
-    "license": "ISC",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/VeguiDev/papermc-api/issues"
+    },
+    "repository": "github:VeguiDev/papermc-api",
     "keywords": ["papermc", "api-client", "minecraft", "download"],
     "scripts": {
         "build": "tsc"
