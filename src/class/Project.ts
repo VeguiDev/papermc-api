@@ -39,7 +39,7 @@ export class Project implements ProjectI {
         }
     }
 
-    async getVersion(ver: string) {
+    async getVersion(ver:("latest"|string)) {
 
         if (this.versions.includes(ver)) {
 
@@ -47,6 +47,10 @@ export class Project implements ProjectI {
 
             return Version.fromRaw(version);
 
+        } else if(ver == "latest") {
+            let version = await APIClient.get('/projects/' + this.project_id + '/versions/' + this.versions[this.versions.length-1]);
+
+            return Version.fromRaw(version);
         } else {
             throw new Error("Invalid Version");
         }

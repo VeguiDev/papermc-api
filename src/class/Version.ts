@@ -5,7 +5,7 @@ export interface VersionI {
     project_id: string;
     project_name: string;
     version: string;
-    builds: number[];
+    builds: string[];
 }
 
 export class Version {
@@ -13,13 +13,13 @@ export class Version {
     project_id: string;
     project_name: string;
     version: string;
-    builds: number[];
+    builds: string[];
 
     constructor(
         proj_id: string,
         proj_name: string,
         version: string,
-        builds: number[]
+        builds: string[]
     ) {
 
         this.project_id = proj_id;
@@ -29,7 +29,7 @@ export class Version {
 
     }
 
-    async getBuild(build: ('latest' | number)) {
+    async getBuild(build: ('latest' | number|string)) {
         let buildId = build;
 
         if (build == "latest") {
