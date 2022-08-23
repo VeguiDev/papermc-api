@@ -25,7 +25,7 @@ export async function DownloadBuild(build: Build, xpath?: string) {
     })
 
     const writer = fs.createWriteStream(
-        xpath ? xpath : path.resolve(process.cwd(), build.downloads.application.name)
+        xpath ? path.join(xpath, build.downloads.application.name) : path.resolve(process.cwd(), build.downloads.application.name)
     )
 
     data.on('data', (chunk:Buffer) => progressBar.tick(chunk.length))
