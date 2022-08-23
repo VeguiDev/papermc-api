@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {program} from 'commander';
 import {ProjectsCommand} from './commands/projects';
 import {ProjectCommand} from './commands/project';
