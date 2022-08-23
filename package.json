@@ -1,6 +1,6 @@
 {
     "name": "papermc-api",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "Its a PaperMC Downloads API client for node.js.",
     "main": "./dist/main.js",
     "author": "veguidev",
